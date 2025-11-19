@@ -42,7 +42,7 @@ banos = st.number_input("Baños", min_value=1, max_value=10, value=2)
 parqueaderos = st.number_input("Parqueaderos", min_value=0, max_value=10, value=1)
 
 
-
+barrio = st.selectbox("Barrio", barrios)
 antiguedad = st.selectbox("Antigüedad", opciones_antiguedad)
 
 permite_mascotas = st.checkbox("Permite mascotas")
@@ -54,7 +54,7 @@ salon_comunal = st.checkbox("Salón comunal")
 terraza = st.checkbox("Terraza")
 vigilancia = st.checkbox("Vigilancia 24h")
 
-barrio = st.selectbox("Barrio", barrios)
+
 
 def to_int(val):
     return 1 if val else 0
@@ -88,3 +88,4 @@ if st.button("Predecir precio"):
 
     st.subheader("💰 Precio Estimado")
     st.success(f"${pred:,.0f} COP")
+
