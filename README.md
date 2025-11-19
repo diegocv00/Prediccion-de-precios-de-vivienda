@@ -3,7 +3,8 @@ Predicción del Precio de Viviendas en Bogotá
 
 Repositorio para análisis, limpieza y modelado de datos inmobiliarios en Bogotá.
 Incluye scripts ETL y un modelo de Machine Learning
-entrenado con CatBoost para predecir el precio de venta de una vivienda.
+entrenado con CatBoost para predecir el precio de venta de una vivienda. 
+Para hacer uso del modelo entra a: https://prediccion-precios-vivienda.streamlit.app/
 
 -------------------------------------------------------------
 Contenido del repositorio
@@ -76,4 +77,5 @@ Resultados del modelo
 El modelo final muestra un buen desempeño para la predicción de precios
 de vivienda gracias al manejo eficiente de variables categóricas y no
 linealidades proporcionado por CatBoost.
+
 
