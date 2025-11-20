@@ -40,25 +40,6 @@ Objetivos del proyecto
 - Optimizar el modelo usando GridSearchCV.
 - Serializar el modelo para permitir predicciones rápidas desde scripts o aplicaciones.
 
--------------------------------------------------------------
-Uso — Resumen rápido
--------------------------------------------------------------
-
-1) Preparar datos
-   Ejecutar el script ETL:
-       python ETL.py
-
-2) Entrenar el modelo
-   El notebook completo está en:
-       modelo_catboost.py
-
-
-3) Usar el modelo para predicciones
-   Si la aplicación es en Streamlit:
-       streamlit run app.py
-
-   O directamente:
-       python app.py
 
 -------------------------------------------------------------
 Tecnologías utilizadas
@@ -70,12 +51,7 @@ Tecnologías utilizadas
 - Pandas y NumPy
 - Streamlit 
 
--------------------------------------------------------------
-Resultados del modelo
--------------------------------------------------------------
 
-El modelo final muestra un buen desempeño para la predicción de precios
-de vivienda gracias al manejo eficiente de variables categóricas y no
-linealidades proporcionado por CatBoost.
+
 
 
