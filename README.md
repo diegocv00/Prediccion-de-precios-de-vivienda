@@ -10,24 +10,29 @@ https://prediccion-precios-vivienda.streamlit.app/
 📂 Contenido del repositorio
 
 📄 app.py
+
    ▶️ Aplicación principal (script o interfaz en Streamlit).
 
 🧹 ETL.py
+
    Script de limpieza, transformación y preparación de los datos.
 
 🤖 modelo_catboost.py
+
    Código para entrenamiento del modelo usando CatBoostRegressor.
    Incluye división de datos, ajuste de parámetros e interpretación básica.
 
 🧠 catboost_modelo.cbm
-   Modelo entrenado y serializado, listo para usar.
+
+   Modelo entrenado
 
 📊 datos_limpios_vivienda.csv
+
    Dataset procesado y limpio usado para entrenamiento.
 
 📁 processed_v2.0.0_august_2_2024.json
-   Dataset crudo original previo al proceso ETL.
 
+   Dataset crudo original previo al proceso ETL.
 
 
 🎯 Objetivos del proyecto
@@ -41,6 +46,7 @@ https://prediccion-precios-vivienda.streamlit.app/
 - Optimizar el modelo usando GridSearchCV.
 
 - Crear una interfaz para permitir predicciones rápidas desde scripts o aplicaciones.
+
 
 
 
