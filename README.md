@@ -6,6 +6,7 @@ Incluye scripts ETL y un modelo de Machine Learning entrenado con CatBoost para 
 🔗 Para hacer uso del modelo entra a:
 https://prediccion-precios-vivienda.streamlit.app/
 
+**----------------------------------------------------------------------------------------------------------------------------------**
 
 📂 Contenido del repositorio
 
@@ -39,8 +40,7 @@ https://prediccion-precios-vivienda.streamlit.app/
 
    Dataset crudo original previo al proceso ETL.
    
-
-
+**----------------------------------------------------------------------------------------------------------------------------------**
 
 🎯 Objetivos del proyecto
 
@@ -53,6 +53,7 @@ https://prediccion-precios-vivienda.streamlit.app/
 - Optimizar el modelo usando GridSearchCV.
 
 - Crear una interfaz para permitir predicciones rápidas desde scripts o aplicaciones.
+
 
 
 
