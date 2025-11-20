@@ -47,7 +47,7 @@ catboost_modelo = CatBoostRegressor(
 gcv = GridSearchCV(
     estimator=catboost_modelo,
     param_grid=parametros,
-    scoring="neg_root_mean_squared_error",
+    scoring="r2",
     cv=5,
     n_jobs=-1
 )
