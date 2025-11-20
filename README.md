@@ -41,6 +41,7 @@ https://prediccion-precios-vivienda.streamlit.app/
    
 
 
+
 🎯 Objetivos del proyecto
 
 - Preparar, limpiar y transformar datos reales de viviendas en Bogotá.
@@ -52,6 +53,7 @@ https://prediccion-precios-vivienda.streamlit.app/
 - Optimizar el modelo usando GridSearchCV.
 
 - Crear una interfaz para permitir predicciones rápidas desde scripts o aplicaciones.
+
 
 
 
