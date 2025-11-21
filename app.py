@@ -9,7 +9,7 @@ from catboost import CatBoostRegressor
 modelo = CatBoostRegressor()
 modelo.load_model("catboost_modelo.cbm")
 
-st.title("🏡 Predicción de precio de viviendas en Bogotá")
+st.title("🏡 Tu brújula inmobiliaria en Bogotá: conoce el precio de tu próximo hogar")
 st.write("Ingrese las características de la propiedad para predecir el precio de venta.")
 
 # -----------------------------------
@@ -88,6 +88,7 @@ if st.button("Predecir precio"):
 
     st.subheader("💰 Precio Estimado")
     st.success(f"${pred:,.0f} COP")
+
 
 
 
