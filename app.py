@@ -9,7 +9,7 @@ import base64
 # -----------------------------------
 st.set_page_config(
     page_title="Brújula inmobiliaria Bogotá",
-    page_icon="",
+    page_icon="🧭",
     layout="wide"
 )
 # -----------------------------------
@@ -180,3 +180,4 @@ if st.button("Predecir Precio"):
    
     </div>
     """, unsafe_allow_html=True)
+
