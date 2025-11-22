@@ -148,7 +148,7 @@ with col7:
 st.markdown("**Comodidades**")
 
 c1, c2, c3, c4 = st.columns(4)
-permite_mascotas = c1.checkbox("Mascotas")
+permite_mascotas = c1.checkbox("Pet friendly")
 piscina = c1.checkbox("Piscina")
 gimnasio = c2.checkbox("Gimnasio")
 salon_comunal = c2.checkbox("Salón Comunal", True)
@@ -180,4 +180,5 @@ if st.button("Predecir Precio"):
    
     </div>
     """, unsafe_allow_html=True)
+
 
